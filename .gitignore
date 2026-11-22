@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+audit_results/
+*.sqlite*
+*.db
+build/
+dist/
+*.zip
+tools/**/*.exe
