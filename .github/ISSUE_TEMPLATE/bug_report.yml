@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: Use disposable files and redact personal paths and filenames. See SECURITY.md for security reports.
+  - type: input
+    id: environment
+    attributes:
+      label: Windows version, Python version, and app commit
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the scan mode, filters, and a synthetic fixture if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true

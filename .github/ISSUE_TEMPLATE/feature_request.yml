@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a workflow improvement
+title: "[Feature] "
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: What are you trying to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What behavior would help?
+    validations:
+      required: true
